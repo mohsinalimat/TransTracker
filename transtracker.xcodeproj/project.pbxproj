@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0017D0B32068097A00AB41A9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017D0B22068097A00AB41A9 /* DatabaseManager.swift */; };
 		0017D0B5206809DF00AB41A9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017D0B4206809DF00AB41A9 /* Settings.swift */; };
 		0017D0B720680AE100AB41A9 /* String+toBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017D0B620680AE100AB41A9 /* String+toBool.swift */; };
 		00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F0C206796CF00BE2031 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0017D0B22068097A00AB41A9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		0017D0B4206809DF00AB41A9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		0017D0B620680AE100AB41A9 /* String+toBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+toBool.swift"; sourceTree = "<group>"; };
 		00550F09206796CF00BE2031 /* transtracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transtracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				00550F1A206796CF00BE2031 /* Info.plist */,
 				00550F292067D81600BE2031 /* CREDITS */,
 				00550F2B2067DFDD00BE2031 /* LevelsController.swift */,
+				0017D0B22068097A00AB41A9 /* DatabaseManager.swift */,
 				0017D0B4206809DF00AB41A9 /* Settings.swift */,
 				0017D0B620680AE100AB41A9 /* String+toBool.swift */,
 			);
@@ -263,6 +266,7 @@
 			files = (
 				00550F11206796CF00BE2031 /* SecondViewController.swift in Sources */,
 				00550F282067D1A800BE2031 /* TabBarController.swift in Sources */,
+				0017D0B32068097A00AB41A9 /* DatabaseManager.swift in Sources */,
 				00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */,
 				0017D0B5206809DF00AB41A9 /* Settings.swift in Sources */,
 				00550F0F206796CF00BE2031 /* FirstViewController.swift in Sources */,
