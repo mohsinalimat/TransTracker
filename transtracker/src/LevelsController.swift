@@ -11,7 +11,7 @@ import UIKit
 import Charts
 
 class LevelsController: UIViewController {
-    @IBOutlet weak var chart: LineChartView!
+/*    @IBOutlet weak var chart: LineChartView!
 
     var visitor: [Int] = [10, 20, 30, 40]
     
@@ -69,5 +69,5 @@ class LevelsController: UIViewController {
         chart.chartDescription?.text = ""
         chart.legend.entries.removeFirst()
         chart.legend.entries.removeLast()
-    }
+    }*/
 }

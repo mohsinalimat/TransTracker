@@ -91,14 +91,61 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		0017D0BA20680D9E00AB41A9 /* SystemExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				0017D0B620680AE100AB41A9 /* String+toBool.swift */,
+			);
+			path = SystemExtensions;
+			sourceTree = "<group>";
+		};
+		0017D0BB20680DA500AB41A9 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0017D0B22068097A00AB41A9 /* DatabaseManager.swift */,
+				0017D0BC20680DAB00AB41A9 /* models */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		0017D0BC20680DAB00AB41A9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0017D0B4206809DF00AB41A9 /* Settings.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		0017D0BD20680DC100AB41A9 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				006984A520684B5400DAEBE2 /* About */,
+				0017D0BF20680DE800AB41A9 /* MainApplication */,
+				00550F2B2067DFDD00BE2031 /* LevelsController.swift */,
 				0017D0B920680D9600AB41A9 /* Onboarding */,
+				0017D0BA20680D9E00AB41A9 /* SystemExtensions */,
+				0017D0BB20680DA500AB41A9 /* Database */,
 				0069849F206847C600DAEBE2 /* HormoneType.swift */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		0017D0BE20680DD600AB41A9 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				00550F12206796CF00BE2031 /* Main.storyboard */,
+				00550F17206796CF00BE2031 /* LaunchScreen.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		0017D0BF20680DE800AB41A9 /* MainApplication */ = {
+			isa = PBXGroup;
+			children = (
+				00550F0C206796CF00BE2031 /* AppDelegate.swift */,
+				00550F272067D1A800BE2031 /* TabBarController.swift */,
+			);
+			path = MainApplication;
 			sourceTree = "<group>";
 		};
 		00550F00206796CF00BE2031 = {
@@ -123,18 +170,11 @@
 		00550F0B206796CF00BE2031 /* transtracker */ = {
 			isa = PBXGroup;
 			children = (
-				00550F0C206796CF00BE2031 /* AppDelegate.swift */,
-				00550F272067D1A800BE2031 /* TabBarController.swift */,
-				00550F12206796CF00BE2031 /* Main.storyboard */,
+				0017D0BE20680DD600AB41A9 /* ui */,
 				0017D0BD20680DC100AB41A9 /* src */,
 				00550F15206796CF00BE2031 /* Assets.xcassets */,
-				00550F17206796CF00BE2031 /* LaunchScreen.storyboard */,
 				00550F1A206796CF00BE2031 /* Info.plist */,
 				00550F292067D81600BE2031 /* CREDITS */,
-				00550F2B2067DFDD00BE2031 /* LevelsController.swift */,
-				0017D0B22068097A00AB41A9 /* DatabaseManager.swift */,
-				0017D0B4206809DF00AB41A9 /* Settings.swift */,
-				0017D0B620680AE100AB41A9 /* String+toBool.swift */,
 			);
 			path = transtracker;
 			sourceTree = "<group>";

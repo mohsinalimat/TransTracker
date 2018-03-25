@@ -33,7 +33,8 @@ extension UIImage {
 class TabBarController: UITabBarController {
     let unselectedColor = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.0)
     let selectedColor = UIColor(red:0.36, green:0.59, blue:0.75, alpha:1.0)
-    
+    var onboardingShown = false
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -46,5 +47,16 @@ class TabBarController: UITabBarController {
         // Selected state colors
         tabBar.tintColor = selectedColor
         UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor : selectedColor], for: .selected)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        navigationController?.popViewController(animated: true)
+        super.viewDidAppear(animated)
+        onboardingShown = DatabaseManager().readSettings(name: "onboardingDone")?.bool() ?? false
+        guard onboardingShown else {
+            performSegue(withIdentifier: "onboarding", sender: nil)
+            onboardingShown = true
+            return
+        }
     }
 }
