@@ -20,6 +20,7 @@
 		00550F2A2067D81600BE2031 /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 00550F292067D81600BE2031 /* CREDITS */; };
 		00550F2C2067DFDD00BE2031 /* LevelsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F2B2067DFDD00BE2031 /* LevelsController.swift */; };
 		00550F612067E6D500BE2031 /* Pods_transtracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		006984A0206847C600DAEBE2 /* HormoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069849F206847C600DAEBE2 /* HormoneType.swift */; };
 		E748752375B8408F75FD98BC /* Pods_transtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		00550F292067D81600BE2031 /* CREDITS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
 		00550F2B2067DFDD00BE2031 /* LevelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsController.swift; sourceTree = "<group>"; };
 		00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0069849F206847C600DAEBE2 /* HormoneType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneType.swift; sourceTree = "<group>"; };
 		3F4929C8A2C1FCEB84F63C25 /* Pods-transtracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.release.xcconfig"; sourceTree = "<group>"; };
 		B914DCCA00345C49E0850C44 /* Pods-transtracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.debug.xcconfig"; sourceTree = "<group>"; };
 		F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0017D0BD20680DC100AB41A9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0069849F206847C600DAEBE2 /* HormoneType.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		00550F00206796CF00BE2031 = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00550F11206796CF00BE2031 /* SecondViewController.swift in Sources */,
+				006984A0206847C600DAEBE2 /* HormoneType.swift in Sources */,
 				00550F282067D1A800BE2031 /* TabBarController.swift in Sources */,
 				0017D0B32068097A00AB41A9 /* DatabaseManager.swift in Sources */,
 				00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */,
