@@ -21,6 +21,7 @@
 		00550F2C2067DFDD00BE2031 /* LevelsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F2B2067DFDD00BE2031 /* LevelsController.swift */; };
 		00550F612067E6D500BE2031 /* Pods_transtracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		006984A0206847C600DAEBE2 /* HormoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069849F206847C600DAEBE2 /* HormoneType.swift */; };
+		006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A620684B6300DAEBE2 /* AboutPageController.swift */; };
 		E748752375B8408F75FD98BC /* Pods_transtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		00550F2B2067DFDD00BE2031 /* LevelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsController.swift; sourceTree = "<group>"; };
 		00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0069849F206847C600DAEBE2 /* HormoneType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneType.swift; sourceTree = "<group>"; };
+		006984A620684B6300DAEBE2 /* AboutPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageController.swift; sourceTree = "<group>"; };
 		3F4929C8A2C1FCEB84F63C25 /* Pods-transtracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.release.xcconfig"; sourceTree = "<group>"; };
 		B914DCCA00345C49E0850C44 /* Pods-transtracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.debug.xcconfig"; sourceTree = "<group>"; };
 		F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 		0017D0BD20680DC100AB41A9 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				006984A520684B5400DAEBE2 /* About */,
 				0069849F206847C600DAEBE2 /* HormoneType.swift */,
 			);
 			path = src;
@@ -109,6 +112,7 @@
 				00550F10206796CF00BE2031 /* SecondViewController.swift */,
 				00550F272067D1A800BE2031 /* TabBarController.swift */,
 				00550F12206796CF00BE2031 /* Main.storyboard */,
+				0017D0BD20680DC100AB41A9 /* src */,
 				00550F15206796CF00BE2031 /* Assets.xcassets */,
 				00550F17206796CF00BE2031 /* LaunchScreen.storyboard */,
 				00550F1A206796CF00BE2031 /* Info.plist */,
@@ -119,6 +123,14 @@
 				0017D0B620680AE100AB41A9 /* String+toBool.swift */,
 			);
 			path = transtracker;
+			sourceTree = "<group>";
+		};
+		006984A520684B5400DAEBE2 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				006984A620684B6300DAEBE2 /* AboutPageController.swift */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 		4FECE6FA5E22F194E52F63E6 /* Pods */ = {
@@ -282,6 +294,7 @@
 				0017D0B5206809DF00AB41A9 /* Settings.swift in Sources */,
 				00550F0F206796CF00BE2031 /* FirstViewController.swift in Sources */,
 				00550F2C2067DFDD00BE2031 /* LevelsController.swift in Sources */,
+				006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */,
 				0017D0B720680AE100AB41A9 /* String+toBool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
