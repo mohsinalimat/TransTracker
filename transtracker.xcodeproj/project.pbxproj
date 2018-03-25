@@ -19,8 +19,10 @@
 		00550F2C2067DFDD00BE2031 /* LevelsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F2B2067DFDD00BE2031 /* LevelsController.swift */; };
 		00550F612067E6D500BE2031 /* Pods_transtracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		006984A0206847C600DAEBE2 /* HormoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069849F206847C600DAEBE2 /* HormoneType.swift */; };
+		006984A22068483C00DAEBE2 /* NotificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A12068483C00DAEBE2 /* NotificationPage.swift */; };
 		006984A420684A8200DAEBE2 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A320684A8200DAEBE2 /* OnboardingPage.swift */; };
 		006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A620684B6300DAEBE2 /* AboutPageController.swift */; };
+		009223AD2068168400068CA1 /* SelectHormonePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009223AC2068168400068CA1 /* SelectHormonePage.swift */; };
 		00ED729B206817A1004AC42E /* OnboardingHormoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED729A206817A1004AC42E /* OnboardingHormoneCell.swift */; };
 		E748752375B8408F75FD98BC /* Pods_transtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */; };
 /* End PBXBuildFile section */
@@ -56,8 +58,10 @@
 		00550F2B2067DFDD00BE2031 /* LevelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsController.swift; sourceTree = "<group>"; };
 		00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0069849F206847C600DAEBE2 /* HormoneType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneType.swift; sourceTree = "<group>"; };
+		006984A12068483C00DAEBE2 /* NotificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPage.swift; sourceTree = "<group>"; };
 		006984A320684A8200DAEBE2 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		006984A620684B6300DAEBE2 /* AboutPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageController.swift; sourceTree = "<group>"; };
+		009223AC2068168400068CA1 /* SelectHormonePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHormonePage.swift; sourceTree = "<group>"; };
 		00ED729A206817A1004AC42E /* OnboardingHormoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHormoneCell.swift; sourceTree = "<group>"; };
 		3F4929C8A2C1FCEB84F63C25 /* Pods-transtracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.release.xcconfig"; sourceTree = "<group>"; };
 		B914DCCA00345C49E0850C44 /* Pods-transtracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -298,11 +302,13 @@
 			files = (
 				006984A0206847C600DAEBE2 /* HormoneType.swift in Sources */,
 				006984A420684A8200DAEBE2 /* OnboardingPage.swift in Sources */,
+				009223AD2068168400068CA1 /* SelectHormonePage.swift in Sources */,
 				00550F282067D1A800BE2031 /* TabBarController.swift in Sources */,
 				0017D0B32068097A00AB41A9 /* DatabaseManager.swift in Sources */,
 				00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */,
 				00ED729B206817A1004AC42E /* OnboardingHormoneCell.swift in Sources */,
 				0017D0B5206809DF00AB41A9 /* Settings.swift in Sources */,
+				006984A22068483C00DAEBE2 /* NotificationPage.swift in Sources */,
 				00550F2C2067DFDD00BE2031 /* LevelsController.swift in Sources */,
 				006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */,
 				0017D0B720680AE100AB41A9 /* String+toBool.swift in Sources */,
