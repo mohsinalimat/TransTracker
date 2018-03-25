@@ -15,8 +15,23 @@
 		00550F19206796CF00BE2031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00550F17206796CF00BE2031 /* LaunchScreen.storyboard */; };
 		00550F282067D1A800BE2031 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F272067D1A800BE2031 /* TabBarController.swift */; };
 		00550F2A2067D81600BE2031 /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 00550F292067D81600BE2031 /* CREDITS */; };
-		744E691889E2E68C359329B0 /* Pods_transtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */; };
+		00550F612067E6D500BE2031 /* Pods_transtracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E748752375B8408F75FD98BC /* Pods_transtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00550F3B2067E02A00BE2031 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00550F612067E6D500BE2031 /* Pods_transtracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00550F09206796CF00BE2031 /* transtracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transtracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +46,7 @@
 		00550F2620679F6000BE2031 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		00550F272067D1A800BE2031 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		00550F292067D81600BE2031 /* CREDITS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
+		00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4929C8A2C1FCEB84F63C25 /* Pods-transtracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.release.xcconfig"; sourceTree = "<group>"; };
 		B914DCCA00345C49E0850C44 /* Pods-transtracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.debug.xcconfig"; sourceTree = "<group>"; };
 		F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transtracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744E691889E2E68C359329B0 /* Pods_transtracker.framework in Frameworks */,
+				E748752375B8408F75FD98BC /* Pods_transtracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +67,7 @@
 		00550F00206796CF00BE2031 = {
 			isa = PBXGroup;
 			children = (
+				00550F5F2067E6D500BE2031 /* Pods_transtracker.framework */,
 				00550F0B206796CF00BE2031 /* transtracker */,
 				00550F0A206796CF00BE2031 /* Products */,
 				4FECE6FA5E22F194E52F63E6 /* Pods */,
@@ -112,6 +129,7 @@
 				00550F07206796CF00BE2031 /* Resources */,
 				6C3851EF814ADFD0D3F9AF7D /* [CP] Embed Pods Frameworks */,
 				4173401C077468A2D72CA386 /* [CP] Copy Pods Resources */,
+				00550F3B2067E02A00BE2031 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,6 +402,7 @@
 				INFOPLIST_FILE = transtracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.adinunno.transtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -401,6 +420,7 @@
 				INFOPLIST_FILE = transtracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.adinunno.transtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
