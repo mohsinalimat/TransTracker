@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0017D0B720680AE100AB41A9 /* String+toBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017D0B620680AE100AB41A9 /* String+toBool.swift */; };
 		00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F0C206796CF00BE2031 /* AppDelegate.swift */; };
 		00550F0F206796CF00BE2031 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F0E206796CF00BE2031 /* FirstViewController.swift */; };
 		00550F11206796CF00BE2031 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F10206796CF00BE2031 /* SecondViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0017D0B620680AE100AB41A9 /* String+toBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+toBool.swift"; sourceTree = "<group>"; };
 		00550F09206796CF00BE2031 /* transtracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transtracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00550F0C206796CF00BE2031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00550F0E206796CF00BE2031 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				00550F17206796CF00BE2031 /* LaunchScreen.storyboard */,
 				00550F1A206796CF00BE2031 /* Info.plist */,
 				00550F292067D81600BE2031 /* CREDITS */,
+				0017D0B620680AE100AB41A9 /* String+toBool.swift */,
 			);
 			path = transtracker;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				00550F282067D1A800BE2031 /* TabBarController.swift in Sources */,
 				00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */,
 				00550F0F206796CF00BE2031 /* FirstViewController.swift in Sources */,
+				0017D0B720680AE100AB41A9 /* String+toBool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
