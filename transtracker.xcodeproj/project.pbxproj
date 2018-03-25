@@ -13,6 +13,8 @@
 		00550F14206796CF00BE2031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00550F12206796CF00BE2031 /* Main.storyboard */; };
 		00550F16206796CF00BE2031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00550F15206796CF00BE2031 /* Assets.xcassets */; };
 		00550F19206796CF00BE2031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00550F17206796CF00BE2031 /* LaunchScreen.storyboard */; };
+		00550F282067D1A800BE2031 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00550F272067D1A800BE2031 /* TabBarController.swift */; };
+		00550F2A2067D81600BE2031 /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 00550F292067D81600BE2031 /* CREDITS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		00550F15206796CF00BE2031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00550F18206796CF00BE2031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00550F1A206796CF00BE2031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00550F2520679F6000BE2031 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		00550F2620679F6000BE2031 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		00550F272067D1A800BE2031 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		00550F292067D81600BE2031 /* CREDITS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,12 @@
 				00550F0C206796CF00BE2031 /* AppDelegate.swift */,
 				00550F0E206796CF00BE2031 /* FirstViewController.swift */,
 				00550F10206796CF00BE2031 /* SecondViewController.swift */,
+				00550F272067D1A800BE2031 /* TabBarController.swift */,
 				00550F12206796CF00BE2031 /* Main.storyboard */,
 				00550F15206796CF00BE2031 /* Assets.xcassets */,
 				00550F17206796CF00BE2031 /* LaunchScreen.storyboard */,
 				00550F1A206796CF00BE2031 /* Info.plist */,
+				00550F292067D81600BE2031 /* CREDITS */,
 			);
 			path = transtracker;
 			sourceTree = "<group>";
@@ -108,7 +116,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 00550F00206796CF00BE2031;
@@ -127,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00550F19206796CF00BE2031 /* LaunchScreen.storyboard in Resources */,
+				00550F2A2067D81600BE2031 /* CREDITS in Resources */,
 				00550F16206796CF00BE2031 /* Assets.xcassets in Resources */,
 				00550F14206796CF00BE2031 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00550F11206796CF00BE2031 /* SecondViewController.swift in Sources */,
+				00550F282067D1A800BE2031 /* TabBarController.swift in Sources */,
 				00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */,
 				00550F0F206796CF00BE2031 /* FirstViewController.swift in Sources */,
 			);
@@ -152,6 +161,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00550F13206796CF00BE2031 /* Base */,
+				00550F2520679F6000BE2031 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -160,6 +170,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00550F18206796CF00BE2031 /* Base */,
+				00550F2620679F6000BE2031 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,6 +182,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -215,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -266,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -281,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D5LD4SSAL;
 				INFOPLIST_FILE = transtracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.adinunno.transtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D5LD4SSAL;
 				INFOPLIST_FILE = transtracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.adinunno.transtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
