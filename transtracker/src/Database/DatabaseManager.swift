@@ -33,4 +33,20 @@ public class DatabaseManager {
         }
         return (database)
     }
+    
+    public func removeRealmObject(object: Object, realm: Realm? = nil) {
+        var database: Realm? = realm
+        if (database == nil) {
+            database = getRealm()
+        }
+        if (database == nil) {
+            return
+        }
+        if (database != object.realm) {
+            return
+        }
+        database!.beginWrite()
+        database!.delete(object)
+        try? database!.commitWrite()
+    }
 }
