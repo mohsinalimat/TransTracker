@@ -22,6 +22,7 @@
 		006984A22068483C00DAEBE2 /* NotificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A12068483C00DAEBE2 /* NotificationPage.swift */; };
 		006984A420684A8200DAEBE2 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A320684A8200DAEBE2 /* OnboardingPage.swift */; };
 		006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A620684B6300DAEBE2 /* AboutPageController.swift */; };
+		006984AA206866AC00DAEBE2 /* IntakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A9206866AC00DAEBE2 /* IntakeController.swift */; };
 		006984AC206868AB00DAEBE2 /* IntakeCurrentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984AB206868AB00DAEBE2 /* IntakeCurrentPage.swift */; };
 		006984B020686C4000DAEBE2 /* DosageUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984AF20686C4000DAEBE2 /* DosageUnit.swift */; };
 		006984B220686CE000DAEBE2 /* ApplicationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984B120686CE000DAEBE2 /* ApplicationMethod.swift */; };
@@ -68,6 +69,7 @@
 		006984A12068483C00DAEBE2 /* NotificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPage.swift; sourceTree = "<group>"; };
 		006984A320684A8200DAEBE2 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		006984A620684B6300DAEBE2 /* AboutPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageController.swift; sourceTree = "<group>"; };
+		006984A9206866AC00DAEBE2 /* IntakeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeController.swift; sourceTree = "<group>"; };
 		006984AF20686C4000DAEBE2 /* DosageUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageUnit.swift; sourceTree = "<group>"; };
 		006984B120686CE000DAEBE2 /* ApplicationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMethod.swift; sourceTree = "<group>"; };
 		006984B520687C9100DAEBE2 /* HormoneScheduleWeekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneScheduleWeekly.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		006984A82068669300DAEBE2 /* Intake */ = {
 			isa = PBXGroup;
 			children = (
+				006984A9206866AC00DAEBE2 /* IntakeController.swift */,
 				006984AB206868AB00DAEBE2 /* IntakeCurrentPage.swift */,
 			);
 			path = Intake;
@@ -367,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006984AA206866AC00DAEBE2 /* IntakeController.swift in Sources */,
 				006984A0206847C600DAEBE2 /* HormoneType.swift in Sources */,
 				006984A420684A8200DAEBE2 /* OnboardingPage.swift in Sources */,
 				009223AD2068168400068CA1 /* SelectHormonePage.swift in Sources */,
