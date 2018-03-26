@@ -8,8 +8,9 @@
 
 import Foundation
 enum HormoneType: Int {
+    case HT_Invalid = -1
     case HT_Estradiol = 0
-    case HT_Testosterone
-    case HT_TestosteroneBlocker
-    case HT_Progesterone
+    case HT_Testosterone = 1
+    case HT_TestosteroneBlocker = 2
+    case HT_Progesterone = 3
 }

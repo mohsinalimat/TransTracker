@@ -22,6 +22,13 @@
 		006984A22068483C00DAEBE2 /* NotificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A12068483C00DAEBE2 /* NotificationPage.swift */; };
 		006984A420684A8200DAEBE2 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A320684A8200DAEBE2 /* OnboardingPage.swift */; };
 		006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984A620684B6300DAEBE2 /* AboutPageController.swift */; };
+		006984AC206868AB00DAEBE2 /* IntakeCurrentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984AB206868AB00DAEBE2 /* IntakeCurrentPage.swift */; };
+		006984B020686C4000DAEBE2 /* DosageUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984AF20686C4000DAEBE2 /* DosageUnit.swift */; };
+		006984B220686CE000DAEBE2 /* ApplicationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984B120686CE000DAEBE2 /* ApplicationMethod.swift */; };
+		006984B620687C9100DAEBE2 /* HormoneScheduleWeekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984B520687C9100DAEBE2 /* HormoneScheduleWeekly.swift */; };
+		006984B820687CAB00DAEBE2 /* HormoneScheduleDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984B720687CAB00DAEBE2 /* HormoneScheduleDaily.swift */; };
+		006984BA20687CC100DAEBE2 /* HormoneScheduleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984B920687CC100DAEBE2 /* HormoneScheduleType.swift */; };
+		006984BC20687CE300DAEBE2 /* HormoneSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006984BB20687CE300DAEBE2 /* HormoneSchedule.swift */; };
 		009223AD2068168400068CA1 /* SelectHormonePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009223AC2068168400068CA1 /* SelectHormonePage.swift */; };
 		00ED729B206817A1004AC42E /* OnboardingHormoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED729A206817A1004AC42E /* OnboardingHormoneCell.swift */; };
 		E748752375B8408F75FD98BC /* Pods_transtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56FB1AB49F30B7AE7EC0353 /* Pods_transtracker.framework */; };
@@ -61,6 +68,12 @@
 		006984A12068483C00DAEBE2 /* NotificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPage.swift; sourceTree = "<group>"; };
 		006984A320684A8200DAEBE2 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		006984A620684B6300DAEBE2 /* AboutPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageController.swift; sourceTree = "<group>"; };
+		006984AF20686C4000DAEBE2 /* DosageUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageUnit.swift; sourceTree = "<group>"; };
+		006984B120686CE000DAEBE2 /* ApplicationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMethod.swift; sourceTree = "<group>"; };
+		006984B520687C9100DAEBE2 /* HormoneScheduleWeekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneScheduleWeekly.swift; sourceTree = "<group>"; };
+		006984B720687CAB00DAEBE2 /* HormoneScheduleDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneScheduleDaily.swift; sourceTree = "<group>"; };
+		006984B920687CC100DAEBE2 /* HormoneScheduleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneScheduleType.swift; sourceTree = "<group>"; };
+		006984BB20687CE300DAEBE2 /* HormoneSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HormoneSchedule.swift; sourceTree = "<group>"; };
 		009223AC2068168400068CA1 /* SelectHormonePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHormonePage.swift; sourceTree = "<group>"; };
 		00ED729A206817A1004AC42E /* OnboardingHormoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHormoneCell.swift; sourceTree = "<group>"; };
 		3F4929C8A2C1FCEB84F63C25 /* Pods-transtracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transtracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-transtracker/Pods-transtracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +132,7 @@
 		0017D0BD20680DC100AB41A9 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				006984A82068669300DAEBE2 /* Intake */,
 				006984A520684B5400DAEBE2 /* About */,
 				0017D0BF20680DE800AB41A9 /* MainApplication */,
 				00550F2B2067DFDD00BE2031 /* LevelsController.swift */,
@@ -126,6 +140,11 @@
 				0017D0BA20680D9E00AB41A9 /* SystemExtensions */,
 				0017D0BB20680DA500AB41A9 /* Database */,
 				0069849F206847C600DAEBE2 /* HormoneType.swift */,
+				006984AF20686C4000DAEBE2 /* DosageUnit.swift */,
+				006984B120686CE000DAEBE2 /* ApplicationMethod.swift */,
+				006984B520687C9100DAEBE2 /* HormoneScheduleWeekly.swift */,
+				006984B720687CAB00DAEBE2 /* HormoneScheduleDaily.swift */,
+				006984B920687CC100DAEBE2 /* HormoneScheduleType.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -185,6 +204,14 @@
 				006984A620684B6300DAEBE2 /* AboutPageController.swift */,
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		006984A82068669300DAEBE2 /* Intake */ = {
+			isa = PBXGroup;
+			children = (
+				006984AB206868AB00DAEBE2 /* IntakeCurrentPage.swift */,
+			);
+			path = Intake;
 			sourceTree = "<group>";
 		};
 		4FECE6FA5E22F194E52F63E6 /* Pods */ = {
@@ -344,13 +371,20 @@
 				006984A420684A8200DAEBE2 /* OnboardingPage.swift in Sources */,
 				009223AD2068168400068CA1 /* SelectHormonePage.swift in Sources */,
 				00550F282067D1A800BE2031 /* TabBarController.swift in Sources */,
+				006984B620687C9100DAEBE2 /* HormoneScheduleWeekly.swift in Sources */,
+				006984BA20687CC100DAEBE2 /* HormoneScheduleType.swift in Sources */,
+				006984B220686CE000DAEBE2 /* ApplicationMethod.swift in Sources */,
+				006984BC20687CE300DAEBE2 /* HormoneSchedule.swift in Sources */,
 				0017D0B32068097A00AB41A9 /* DatabaseManager.swift in Sources */,
+				006984B820687CAB00DAEBE2 /* HormoneScheduleDaily.swift in Sources */,
 				00550F0D206796CF00BE2031 /* AppDelegate.swift in Sources */,
 				00ED729B206817A1004AC42E /* OnboardingHormoneCell.swift in Sources */,
 				0017D0B5206809DF00AB41A9 /* Settings.swift in Sources */,
 				006984A22068483C00DAEBE2 /* NotificationPage.swift in Sources */,
 				00550F2C2067DFDD00BE2031 /* LevelsController.swift in Sources */,
 				006984A720684B6300DAEBE2 /* AboutPageController.swift in Sources */,
+				006984AC206868AB00DAEBE2 /* IntakeCurrentPage.swift in Sources */,
+				006984B020686C4000DAEBE2 /* DosageUnit.swift in Sources */,
 				0017D0B720680AE100AB41A9 /* String+toBool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
